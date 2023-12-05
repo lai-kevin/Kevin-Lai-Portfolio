@@ -2,7 +2,7 @@ const AboutMe = () => {
 return (
     <div className="w-screen bg-red-500 py-10 flex flex-col">
         <div className="flex flex-col px-6">
-            <h2 className="text-lg font-bold text-white font-dela-gothic pb-5">
+            <h2 className="text-xl font-bold text-white font-dela-gothic pb-5">
                 About Me
             </h2>
             <p className="text-sm font-black text-black">

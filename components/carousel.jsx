@@ -2,50 +2,39 @@
 import Image from "next/image";
 const Carousel = () => {
   return (
-    <div>
+    <div className="w-screen bg-black py-10 flex flex-col">
+      <h2 className="text-xl font-bold pl-6 text-white font-dela-gothic pb-5">
+        Projects
+      </h2>
       <div className="carousel carousel-center p-6 space-x-5 bg-black ">
         <div className="carousel-item flex flex-col">
           <img
             src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
             className="rounded-box"
+            width={400}
           />
-          <h6 className="p-5 text-center">STARS: Stony Brook University <br/>Assembler and Runtime Simulator</h6>
+          <h4 className="p-5 text-center">
+            STARS: Stony Brook University <br />
+            Assembler and Runtime Simulator
+          </h4>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item flex flex-col">
           <img
             src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
             className="rounded-box"
+            width={400}
           />
+          <h4 className="p-5 text-center">Malloc! A C Memory Allocator</h4>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item flex flex-col">
           <img
-            src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
+            src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
             className="rounded-box"
+            width={400}
           />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
-            className="rounded-box"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
-            className="rounded-box"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg"
-            className="rounded-box"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
-            className="rounded-box"
-          />
+          <h4 className="p-5 text-center">
+            Stock Market Dashbaoard <br /> with ChatGPT Widgets
+          </h4>
         </div>
       </div>
     </div>
