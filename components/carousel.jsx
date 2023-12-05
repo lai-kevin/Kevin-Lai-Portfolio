@@ -61,11 +61,11 @@ const Carousel = (props) => {
                       src={cardByIndex(index).image}
                       className="rounded-box"
                       alt="Stars"
-                      height={300}
+                      height="20vh"
                       style={{ objectFit: "cover" }}
                     />
                   </div>
-                  <h4 className="p-5 text-center text-sm">
+                  <h4 className="p-5 text-center text-sm text-white">
                     {cardByIndex(index).title}
                   </h4>
                 </div>
