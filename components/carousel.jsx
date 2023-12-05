@@ -17,7 +17,7 @@ const Carousel = () => {
               src={stars_img}
               className="rounded-box"
               alt="Stars"
-              height={window.innerWidth < 600 ? 230 : 300}
+              height={230}
               style={{ objectFit: "cover" }}
             />
           </div>
@@ -32,7 +32,7 @@ const Carousel = () => {
                 src={portolio_img}
                 className="rounded-box"
                 alt="My Website"
-                height={window.innerWidth < 600 ? 230 : 300}
+                height={230}
                 style={{ objectFit: "cover" }}
             />
         </div>
@@ -46,7 +46,7 @@ const Carousel = () => {
             src={malloc_img}
             className="rounded-box"
             alt="Malloc!"
-            height={window.innerWidth < 600 ? 230 : 300}
+            height={230}
             style={{ objectFit: "cover" }}
           />
           <h4 className="p-5 text-center text-sm">
@@ -58,7 +58,7 @@ const Carousel = () => {
             src={chatgpt_img}
             className="rounded-box"
             alt="Stock Dashboard"
-            height={window.innerWidth < 600 ? 230 : 300}
+            height={230}
             style={{ objectFit: "cover" }}
           />
           <h4 className="p-5 text-center text-sm">
